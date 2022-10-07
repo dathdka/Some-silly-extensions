@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "darkmode",
+  "description": "an automatic sensor darkmode extention",
+  "version": "1.0",
+  "action": {},
+  "permissions": ["scripting", "activeTab", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

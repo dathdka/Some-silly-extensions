@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "think outside the box",
+    "description": "make image rotates around the coordinate axis extention",
+    "version": "1.0",
+    "action": {},
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
